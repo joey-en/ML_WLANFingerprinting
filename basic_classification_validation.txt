@@ -1,0 +1,137 @@
+Loading ./UJIndoorLoc/validationData.csv and applying the same preprocessing
+>> The values in WAPxxx columns with 100 is turned into -105
+>> Dropped 55 WAP columns that were never detected.
+>> Checking if there are any missing values: False
+>> Scaling the numerical columns (RSSI_columns and Coordinate Columns) with MinMaxScaler
+
+============== Validation Decision Tree Building ID ==============
+>> Accuracy:           0.9774977497749775
+>> Precision macro:    0.9738473262956014
+>> Precision micro:    0.9774977497749775
+>> Precision weighted: 0.977664711962851
+>> Recall macro:       0.9774843210656815
+>> Recall micro:       0.9774977497749775
+>> Recall weighted:    0.9774977497749775
+>> F1 Score macro:     0.9756261119551614
+>> F1 Score micro:     0.9774977497749775
+>> F1 Score weighted:  0.9775414214403688
+              precision    recall  f1-score   support
+
+           0      0.992     0.979     0.986       536
+           1      0.955     0.964     0.959       307
+           2      0.974     0.989     0.981       268
+
+    accuracy                          0.977      1111
+   macro avg      0.974     0.977     0.976      1111
+weighted avg      0.978     0.977     0.978      1111
+
+============== Validation Decision Tree Floor ==============
+>> Accuracy:           0.7488748874887489
+>> Precision macro:    0.7233517311011838
+>> Precision micro:    0.7488748874887489
+>> Precision weighted: 0.7675034478496573
+>> Recall macro:       0.7644648481173789
+>> Recall micro:       0.7488748874887489
+>> Recall weighted:    0.7488748874887489
+>> F1 Score macro:     0.7389315433409803
+>> F1 Score micro:     0.7488748874887489
+>> F1 Score weighted:  0.7518550098969278
+              precision    recall  f1-score   support
+
+           0      0.770     0.811     0.790       132
+           1      0.886     0.706     0.786       462
+           2      0.681     0.781     0.728       306
+           3      0.628     0.756     0.686       172
+           4      0.652     0.769     0.706        39
+
+    accuracy                          0.749      1111
+   macro avg      0.723     0.764     0.739      1111
+weighted avg      0.768     0.749     0.752      1111
+
+============== Validation SVM Building ID ==============
+>> Accuracy:           0.9972997299729973
+>> Precision macro:    0.9970496274610136
+>> Precision micro:    0.9972997299729973
+>> Precision weighted: 0.9973001345618926
+>> Recall macro:       0.9972065567925843
+>> Recall micro:       0.9972997299729973
+>> Recall weighted:    0.9972997299729973
+>> F1 Score macro:     0.9971260556181184
+>> F1 Score micro:     0.9972997299729973
+>> F1 Score weighted:  0.9972983655415311
+              precision    recall  f1-score   support
+
+           0      0.998     0.998     0.998       536
+           1      0.997     0.993     0.995       307
+           2      0.996     1.000     0.998       268
+
+    accuracy                          0.997      1111
+   macro avg      0.997     0.997     0.997      1111
+weighted avg      0.997     0.997     0.997      1111
+
+============== Validation SVM Floor ==============
+>> Accuracy:           0.8973897389738974
+>> Precision macro:    0.8586734099682113
+>> Precision micro:    0.8973897389738974
+>> Precision weighted: 0.9049127107887261
+>> Recall macro:       0.9019952383837472
+>> Recall micro:       0.8973897389738974
+>> Recall weighted:    0.8973897389738974
+>> F1 Score macro:     0.877244673275408
+>> F1 Score micro:     0.8973897389738974
+>> F1 Score weighted:  0.8990442995420507
+              precision    recall  f1-score   support
+
+           0      0.730     0.902     0.807       132
+           1      0.957     0.870     0.912       462
+           2      0.910     0.928     0.919       306
+           3      0.918     0.913     0.915       172
+           4      0.778     0.897     0.833        39
+
+    accuracy                          0.897      1111
+   macro avg      0.859     0.902     0.877      1111
+weighted avg      0.905     0.897     0.899      1111
+
+============== Validation Random Forest Building ID ==============
+>> Accuracy:           0.9990999099909991
+>> Precision macro:    0.9993792675356921
+>> Precision micro:    0.9990999099909991
+>> Precision weighted: 0.9991015861362673
+>> Recall macro:       0.998914223669924
+>> Recall micro:       0.9990999099909991
+>> Recall weighted:    0.9990999099909991
+>> F1 Score macro:     0.9991455707268274
+>> F1 Score micro:     0.9990999099909991
+>> F1 Score weighted:  0.9990995952498105
+              precision    recall  f1-score   support
+
+           0      0.998     1.000     0.999       536
+           1      1.000     0.997     0.998       307
+           2      1.000     1.000     1.000       268
+
+    accuracy                          0.999      1111
+   macro avg      0.999     0.999     0.999      1111
+weighted avg      0.999     0.999     0.999      1111
+
+============== Validation Random Forest Floor ==============
+>> Accuracy:           0.9036903690369037
+>> Precision macro:    0.8986045774867588
+>> Precision micro:    0.9036903690369037
+>> Precision weighted: 0.9080890711375752
+>> Recall macro:       0.8761175820683343
+>> Recall micro:       0.9036903690369037
+>> Recall weighted:    0.9036903690369037
+>> F1 Score macro:     0.8844506859783353
+>> F1 Score micro:     0.9036903690369037
+>> F1 Score weighted:  0.9038871801602029
+              precision    recall  f1-score   support
+
+           0      0.952     0.894     0.922       132
+           1      0.958     0.883     0.919       462
+           2      0.842     0.938     0.887       306
+           3      0.867     0.948     0.906       172
+           4      0.875     0.718     0.789        39
+
+    accuracy                          0.904      1111
+   macro avg      0.899     0.876     0.884      1111
+weighted avg      0.908     0.904     0.904      1111
