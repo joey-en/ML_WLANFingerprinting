@@ -1,0 +1,64 @@
+param_bounds = [
+    (50, 200),    # n_estimators
+    (5, 50),      # max_depth
+    (2, 10),      # min_samples_split
+    (0.1, 1.0),   # max_features (fraction of features)
+]
+
+tuned BUILDINGID RandomForest in 1804.0780696868896 seconds.
+Best hyperparameters for BUILDINGID:
+>> n_estimators      = {76}
+>> max_depth         = {48}
+>> min_samples_split = {4}
+>> max_features      = {0.24160228740609407}
+tuned FLOOR RandomForest in 5907.673290491104 seconds.
+
+Best hyperparameters for FLOOR:
+>> n_estimators      = {145}
+>> max_depth         = {46}
+>> min_samples_split = {2}
+>> max_features      = {0.12611022100664532}
+
+============== Random Forest (Tuned) Building ID ==============
+>> Accuracy:           0.9979939819458375
+>> Precision macro:    0.9973571192599934
+>> Precision micro:    0.9979939819458375
+>> Precision weighted: 0.9980098869452758
+>> Recall macro:       0.998603108084512
+>> Recall micro:       0.9979939819458375
+>> Recall weighted:    0.9979939819458375
+>> F1 Score macro:     0.9979733876549014
+>> F1 Score micro:     0.9979939819458375
+>> F1 Score weighted:  0.9979958679658674
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000      1078
+           1      0.992     1.000     0.996      1001
+           2      1.000     0.996     0.998      1909
+
+    accuracy                          0.998      3988
+   macro avg      0.997     0.999     0.998      3988
+weighted avg      0.998     0.998     0.998      3988
+
+============== Random Forest (Tuned) Floor ==============
+>> Accuracy:           0.9962387161484454
+>> Precision macro:    0.9969978290486343
+>> Precision micro:    0.9962387161484454
+>> Precision weighted: 0.9962637003074388
+>> Recall macro:       0.9959219992549491
+>> Recall micro:       0.9962387161484454
+>> Recall weighted:    0.9962387161484454
+>> F1 Score macro:     0.9964467591232264
+>> F1 Score micro:     0.9962387161484454
+>> F1 Score weighted:  0.9962367761457761
+              precision    recall  f1-score   support
+
+           0      0.999     0.988     0.993       886
+           1      0.996     0.999     0.998      1010
+           2      1.000     0.998     0.999       882
+           3      0.990     1.000     0.995       998
+           4      1.000     0.995     0.998       212
+
+    accuracy                          0.996      3988
+   macro avg      0.997     0.996     0.996      3988
+weighted avg      0.996     0.996     0.996      3988
