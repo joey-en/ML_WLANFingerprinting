@@ -1,0 +1,131 @@
+============== Decision Tree Building ID ==============
+>> Accuracy:           0.9977432296890673
+>> Precision macro:    0.997029702970297
+>> Precision micro:    0.9977432296890673
+>> Precision weighted: 0.997763339523521
+>> Recall macro:       0.9984284965950759
+>> Recall micro:       0.9977432296890673
+>> Recall weighted:    0.9977432296890673
+>> F1 Score macro:     0.9977205965770567
+>> F1 Score micro:     0.9977432296890673
+>> F1 Score weighted:  0.9977456134709664
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000      1078
+           1      0.991     1.000     0.996      1001
+           2      1.000     0.995     0.998      1909
+
+    accuracy                          0.998      3988
+   macro avg      0.997     0.998     0.998      3988
+weighted avg      0.998     0.998     0.998      3988
+
+============== Decision Tree Floor ==============
+>> Accuracy:           0.9724172517552658
+>> Precision macro:    0.9738232098706364
+>> Precision micro:    0.9724172517552658
+>> Precision weighted: 0.9724104813745901
+>> Recall macro:       0.9751446902597293
+>> Recall micro:       0.9724172517552658
+>> Recall weighted:    0.9724172517552658
+>> F1 Score macro:     0.9744744883705063
+>> F1 Score micro:     0.9724172517552658
+>> F1 Score weighted:  0.9724064789334718
+              precision    recall  f1-score   support
+
+           0      0.981     0.979     0.980       886
+           1      0.971     0.967     0.969      1010
+           2      0.965     0.960     0.963       882
+           3      0.971     0.979     0.975       998
+           4      0.981     0.991     0.986       212
+
+    accuracy                          0.972      3988
+   macro avg      0.974     0.975     0.974      3988
+weighted avg      0.972     0.972     0.972      3988
+
+============== SVM Building ID ==============
+>> Accuracy:           0.9979939819458375
+>> Precision macro:    0.9973571192599934
+>> Precision micro:    0.9979939819458375
+>> Precision weighted: 0.9980098869452758
+>> Recall macro:       0.998603108084512
+>> Recall micro:       0.9979939819458375
+>> Recall weighted:    0.9979939819458375
+>> F1 Score macro:     0.9979733876549014
+>> F1 Score micro:     0.9979939819458375
+>> F1 Score weighted:  0.9979958679658674
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000      1078
+           1      0.992     1.000     0.996      1001
+           2      1.000     0.996     0.998      1909
+
+    accuracy                          0.998      3988
+   macro avg      0.997     0.999     0.998      3988
+weighted avg      0.998     0.998     0.998      3988
+
+============== SVM Floor ==============
+>> Accuracy:           0.9932296890672017
+>> Precision macro:    0.9936978415812712
+>> Precision micro:    0.9932296890672017
+>> Precision weighted: 0.9932436934527614
+>> Recall macro:       0.9933692644324207
+>> Recall micro:       0.9932296890672017
+>> Recall weighted:    0.9932296890672017
+>> F1 Score macro:     0.9935241804933798
+>> F1 Score micro:     0.9932296890672017
+>> F1 Score weighted:  0.9932257537380177
+              precision    recall  f1-score   support
+
+           0      0.994     0.984     0.989       886
+           1      0.991     0.996     0.994      1010
+           2      0.998     0.994     0.996       882
+           3      0.990     0.997     0.994       998
+           4      0.995     0.995     0.995       212
+
+    accuracy                          0.993      3988
+   macro avg      0.994     0.993     0.994      3988
+weighted avg      0.993     0.993     0.993      3988
+
+============== Random Forest Building ID ==============
+>> Accuracy:           0.9979939819458375
+>> Precision macro:    0.9973571192599934
+>> Precision micro:    0.9979939819458375
+>> Precision weighted: 0.9980098869452758
+>> Recall macro:       0.998603108084512
+>> Recall micro:       0.9979939819458375
+>> Recall weighted:    0.9979939819458375
+>> F1 Score macro:     0.9979733876549014
+>> F1 Score micro:     0.9979939819458375
+>> F1 Score weighted:  0.9979958679658674
+              precision    recall  f1-score   support
+
+           0      1.000     1.000     1.000      1078
+           1      0.992     1.000     0.996      1001
+           2      1.000     0.996     0.998      1909
+
+    accuracy                          0.998      3988
+   macro avg      0.997     0.999     0.998      3988
+weighted avg      0.998     0.998     0.998      3988
+
+============== Random Forest Floor ==============
+>> Accuracy:           0.995987963891675
+>> Precision macro:    0.9967389681262985
+>> Precision micro:    0.995987963891675
+>> Precision weighted: 0.9960027867027051
+>> Recall macro:       0.9964669748777808
+>> Recall micro:       0.995987963891675
+>> Recall weighted:    0.995987963891675
+>> F1 Score macro:     0.9965937031805577
+>> F1 Score micro:     0.995987963891675
+>> F1 Score weighted:  0.9959846701375149
+              precision    recall  f1-score   support
+
+           0      0.999     0.988     0.993       886
+           1      0.995     0.998     0.997      1010
+           2      0.998     0.998     0.998       882
+           3      0.992     0.999     0.996       998
+           4      1.000     1.000     1.000       212
+
+    accuracy                          0.996      3988
+   macro avg      0.997     0.996     0.997      3988
+weighted avg      0.996     0.996     0.996      3988

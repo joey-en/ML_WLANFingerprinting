@@ -1,0 +1,154 @@
+Loading ./UJIndoorLoc/validationData.csv and applying the same preprocessing
+>> The values in WAPxxx columns with 100 is turned into -105
+>> Dropped 55 WAP columns that were never detected.
+>> Checking if there are any missing values: False
+>> Scaling the numerical columns (RSSI_columns and Coordinate Columns) with MinMaxScaler
+[LONGITUDE] Epoch 1/30 - Loss: 6.6394
+[LONGITUDE] Epoch 2/30 - Loss: 3.7291
+[LONGITUDE] Epoch 3/30 - Loss: 2.7182
+[LONGITUDE] Epoch 4/30 - Loss: 2.0272
+[LONGITUDE] Epoch 5/30 - Loss: 1.6096
+[LONGITUDE] Epoch 6/30 - Loss: 1.2741
+[LONGITUDE] Epoch 7/30 - Loss: 1.1879
+[LONGITUDE] Epoch 8/30 - Loss: 1.0362
+[LONGITUDE] Epoch 9/30 - Loss: 0.9922
+[LONGITUDE] Epoch 10/30 - Loss: 0.8733
+[LONGITUDE] Epoch 11/30 - Loss: 0.7354
+[LONGITUDE] Epoch 12/30 - Loss: 0.6903
+[LONGITUDE] Epoch 13/30 - Loss: 0.6414
+[LONGITUDE] Epoch 14/30 - Loss: 0.5693
+[LONGITUDE] Epoch 15/30 - Loss: 0.4995
+[LONGITUDE] Epoch 16/30 - Loss: 0.5579
+[LONGITUDE] Epoch 17/30 - Loss: 0.4598
+[LONGITUDE] Epoch 18/30 - Loss: 0.4797
+[LONGITUDE] Epoch 19/30 - Loss: 0.4200
+[LONGITUDE] Epoch 20/30 - Loss: 0.3989
+[LONGITUDE] Epoch 21/30 - Loss: 0.3447
+[LONGITUDE] Epoch 22/30 - Loss: 0.3304
+[LONGITUDE] Epoch 23/30 - Loss: 0.3233
+[LONGITUDE] Epoch 24/30 - Loss: 0.3113
+[LONGITUDE] Epoch 25/30 - Loss: 0.2963
+[LONGITUDE] Epoch 26/30 - Loss: 0.3172
+[LONGITUDE] Epoch 27/30 - Loss: 0.2675
+[LONGITUDE] Epoch 28/30 - Loss: 0.2528
+[LONGITUDE] Epoch 29/30 - Loss: 0.1976
+[LONGITUDE] Epoch 30/30 - Loss: 0.2090
+
+[LATITUDE] Epoch 1/30 - Loss: 6.1189
+[LATITUDE] Epoch 2/30 - Loss: 3.7832
+[LATITUDE] Epoch 3/30 - Loss: 2.9111
+[LATITUDE] Epoch 4/30 - Loss: 2.4836
+[LATITUDE] Epoch 5/30 - Loss: 2.0560
+[LATITUDE] Epoch 6/30 - Loss: 1.8051
+[LATITUDE] Epoch 7/30 - Loss: 1.3586
+[LATITUDE] Epoch 8/30 - Loss: 1.2698
+[LATITUDE] Epoch 9/30 - Loss: 1.0963
+[LATITUDE] Epoch 10/30 - Loss: 0.9254
+[LATITUDE] Epoch 11/30 - Loss: 1.0007
+[LATITUDE] Epoch 12/30 - Loss: 0.8540
+[LATITUDE] Epoch 13/30 - Loss: 0.7470
+[LATITUDE] Epoch 14/30 - Loss: 0.6884
+[LATITUDE] Epoch 15/30 - Loss: 0.6489
+[LATITUDE] Epoch 16/30 - Loss: 0.6182
+[LATITUDE] Epoch 17/30 - Loss: 0.5264
+[LATITUDE] Epoch 18/30 - Loss: 0.5186
+[LATITUDE] Epoch 19/30 - Loss: 0.4755
+[LATITUDE] Epoch 20/30 - Loss: 0.5162
+[LATITUDE] Epoch 21/30 - Loss: 0.4541
+[LATITUDE] Epoch 22/30 - Loss: 0.4268
+[LATITUDE] Epoch 23/30 - Loss: 0.3671
+[LATITUDE] Epoch 24/30 - Loss: 0.3668
+[LATITUDE] Epoch 25/30 - Loss: 0.3565
+[LATITUDE] Epoch 26/30 - Loss: 0.3399
+[LATITUDE] Epoch 27/30 - Loss: 0.3176
+[LATITUDE] Epoch 28/30 - Loss: 0.2755
+[LATITUDE] Epoch 29/30 - Loss: 0.2841
+[LATITUDE] Epoch 30/30 - Loss: 0.2767
+
+
+============== Validated Neural Network Longitude ==============
+>> R2:     0.9436845335970365
+>> MSE:    0.004898838430153616
+>> RMSE:   0.06999170258076036
+>> MAE:    0.047171040494664584
+
+============== Validated Neural Network Latitude ==============
+>> R2:     0.9307395680234521
+>> MSE:    0.004702422263141615
+>> RMSE:   0.06857420989804851
+>> MAE:    0.05340817815052477
+
+[LONGITUDE] Epoch 1/30 - Loss: 1.6282
+[LONGITUDE] Epoch 2/30 - Loss: 1.1600
+[LONGITUDE] Epoch 3/30 - Loss: 0.8564
+[LONGITUDE] Epoch 4/30 - Loss: 0.5140
+[LONGITUDE] Epoch 5/30 - Loss: 0.3318
+[LONGITUDE] Epoch 6/30 - Loss: 0.2549
+[LONGITUDE] Epoch 7/30 - Loss: 0.1899
+[LONGITUDE] Epoch 8/30 - Loss: 0.1649
+[LONGITUDE] Epoch 9/30 - Loss: 0.1549
+[LONGITUDE] Epoch 10/30 - Loss: 0.1427
+[LONGITUDE] Epoch 11/30 - Loss: 0.1240
+[LONGITUDE] Epoch 12/30 - Loss: 0.1219
+[LONGITUDE] Epoch 13/30 - Loss: 0.1072
+[LONGITUDE] Epoch 14/30 - Loss: 0.0988
+[LONGITUDE] Epoch 15/30 - Loss: 0.1064
+[LONGITUDE] Epoch 16/30 - Loss: 0.1073
+[LONGITUDE] Epoch 17/30 - Loss: 0.0988
+[LONGITUDE] Epoch 18/30 - Loss: 0.0880
+[LONGITUDE] Epoch 19/30 - Loss: 0.0886
+[LONGITUDE] Epoch 20/30 - Loss: 0.0815
+[LONGITUDE] Epoch 21/30 - Loss: 0.0772
+[LONGITUDE] Epoch 22/30 - Loss: 0.0784
+[LONGITUDE] Epoch 23/30 - Loss: 0.0796
+[LONGITUDE] Epoch 24/30 - Loss: 0.0703
+[LONGITUDE] Epoch 25/30 - Loss: 0.0797
+[LONGITUDE] Epoch 26/30 - Loss: 0.0818
+[LONGITUDE] Epoch 27/30 - Loss: 0.0819
+[LONGITUDE] Epoch 28/30 - Loss: 0.0908
+[LONGITUDE] Epoch 29/30 - Loss: 0.0802
+[LONGITUDE] Epoch 30/30 - Loss: 0.0716
+
+[LATITUDE] Epoch 1/30 - Loss: 2.4641
+[LATITUDE] Epoch 2/30 - Loss: 1.0992
+[LATITUDE] Epoch 3/30 - Loss: 1.0394
+[LATITUDE] Epoch 4/30 - Loss: 0.9142
+[LATITUDE] Epoch 5/30 - Loss: 0.7869
+[LATITUDE] Epoch 6/30 - Loss: 0.6009
+[LATITUDE] Epoch 7/30 - Loss: 0.4443
+[LATITUDE] Epoch 8/30 - Loss: 0.3818
+[LATITUDE] Epoch 9/30 - Loss: 0.3227
+[LATITUDE] Epoch 10/30 - Loss: 0.2721
+[LATITUDE] Epoch 11/30 - Loss: 0.2428
+[LATITUDE] Epoch 12/30 - Loss: 0.2229
+[LATITUDE] Epoch 13/30 - Loss: 0.2130
+[LATITUDE] Epoch 14/30 - Loss: 0.2084
+[LATITUDE] Epoch 15/30 - Loss: 0.1813
+[LATITUDE] Epoch 16/30 - Loss: 0.1866
+[LATITUDE] Epoch 17/30 - Loss: 0.1754
+[LATITUDE] Epoch 18/30 - Loss: 0.1663
+[LATITUDE] Epoch 19/30 - Loss: 0.1741
+[LATITUDE] Epoch 20/30 - Loss: 0.1607
+[LATITUDE] Epoch 21/30 - Loss: 0.1544
+[LATITUDE] Epoch 22/30 - Loss: 0.1483
+[LATITUDE] Epoch 23/30 - Loss: 0.1566
+[LATITUDE] Epoch 24/30 - Loss: 0.1389
+[LATITUDE] Epoch 25/30 - Loss: 0.1467
+[LATITUDE] Epoch 26/30 - Loss: 0.1341
+[LATITUDE] Epoch 27/30 - Loss: 0.1310
+[LATITUDE] Epoch 28/30 - Loss: 0.1574
+[LATITUDE] Epoch 29/30 - Loss: 0.1424
+[LATITUDE] Epoch 30/30 - Loss: 0.1484
+
+
+============== Validated Convolutional Neural Network Longitude ==============
+>> R2:     0.9603478379459544
+>> MSE:    0.0034493106017997204
+>> RMSE:   0.058730831781950106
+>> MAE:    0.038143547737081535
+
+============== Validated Convolutional Neural Network Latitude ==============
+>> R2:     0.8898301148805642
+>> MSE:    0.007479960862629482
+>> RMSE:   0.08648676697986508
+>> MAE:    0.064576314073841

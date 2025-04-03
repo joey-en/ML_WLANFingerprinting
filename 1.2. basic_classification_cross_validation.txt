@@ -1,0 +1,75 @@
+========= Cross-Validation Analysis ========= 
+Calculating scores for tree_building
+>> tree_building accuracy:               0.9968902442399955
+>> tree_building precision_macro:        0.9968289212800293
+>> tree_building precision_micro:        0.9968902442399955
+>> tree_building precision_weighted:     0.9969142338692919
+>> tree_building recall_macro:           0.9968742229235042
+>> tree_building recall_micro:           0.9968902442399955
+>> tree_building recall_weighted:        0.9968902442399955
+>> tree_building f1_macro:               0.9968393375615179
+>> tree_building f1_micro:               0.9968902442399955
+>> tree_building f1_weighted:            0.9968908084628918
+Calculating scores for tree_floor
+>> tree_floor accuracy:                  0.9743189679424628
+>> tree_floor precision_macro:           0.9747005924184237
+>> tree_floor precision_micro:           0.9743189679424628
+>> tree_floor precision_weighted:        0.974386750353953
+>> tree_floor recall_macro:              0.976211534813497
+>> tree_floor recall_micro:              0.9743189679424628
+>> tree_floor recall_weighted:           0.9743189679424628
+>> tree_floor f1_macro:                  0.9754014094320258
+>> tree_floor f1_micro:                  0.9743189679424628
+>> tree_floor f1_weighted:               0.9743061444140928
+Calculating scores for svm_building
+>> svm_building accuracy:                0.9977931536707463
+>> svm_building precision_macro:         0.9977248968428183
+>> svm_building precision_micro:         0.9977931536707463
+>> svm_building precision_weighted:      0.9978104753474598
+>> svm_building recall_macro:            0.9979024341448047
+>> svm_building recall_micro:            0.9977931536707463
+>> svm_building recall_weighted:         0.9977931536707463
+>> svm_building f1_macro:                0.9978047144765749
+>> svm_building f1_micro:                0.9977931536707463
+>> svm_building f1_weighted:             0.9977934532955928
+Calculating scores for svm_floor
+>> svm_floor accuracy:                   0.9931784817573645
+>> svm_floor precision_macro:            0.9940467714551543
+>> svm_floor precision_micro:            0.9931784817573645
+>> svm_floor precision_weighted:         0.9932028689294088
+>> svm_floor recall_macro:               0.993367073065115
+>> svm_floor recall_micro:               0.9931784817573645
+>> svm_floor recall_weighted:            0.9931784817573645
+>> svm_floor f1_macro:                   0.9936923865165876
+>> svm_floor f1_micro:                   0.9931784817573645
+>> svm_floor f1_weighted:                0.9931765364926062
+Calculating scores for rf_building
+>> rf_building accuracy:                 0.9977429277295006
+>> rf_building precision_macro:          0.9979624181074274
+>> rf_building precision_micro:          0.9977429277295006
+>> rf_building precision_weighted:       0.997758135647611
+>> rf_building recall_macro:             0.9976022087102983
+>> rf_building recall_micro:             0.9977429277295006
+>> rf_building recall_weighted:          0.9977429277295006
+>> rf_building f1_macro:                 0.9977735265480249
+>> rf_building f1_micro:                 0.9977429277295006
+>> rf_building f1_weighted:              0.9977422454348494
+Calculating scores for rf_floor
+>> rf_floor accuracy:                    0.9967397677226362
+>> rf_floor precision_macro:             0.9972301075212611
+>> rf_floor precision_micro:             0.9967397677226362
+>> rf_floor precision_weighted:          0.9967642361034903
+>> rf_floor recall_macro:                0.9972076398751483
+>> rf_floor recall_micro:                0.9967397677226362
+>> rf_floor recall_weighted:             0.9967397677226362
+>> rf_floor f1_macro:                    0.9972091238765973
+>> rf_floor f1_micro:                    0.9967397677226362
+>> rf_floor f1_weighted:                 0.9967406106269199
+
+                accuracy    precision_macro	precision_micro	precision_weighted	recall_macro	recall_micro	recall_weighted	f1_macro	f1_micro	f1_weighted
+svm_building	0.997793	0.997725	    0.997793	        0.997810	    0.997902	    0.997793	    0.997793	    0.997805	0.997793	0.997793
+rf_building	    0.997743	0.997962	    0.997743	        0.997758	    0.997602	    0.997743	    0.997743	    0.997774	0.997743	0.997742
+tree_building	0.996890	0.996829	    0.996890	        0.996914	    0.996874	    0.996890	    0.996890	    0.996839	0.996890	0.996891
+rf_floor	    0.996740	0.997230	    0.996740	        0.996764	    0.997208	    0.996740	    0.996740	    0.997209	0.996740	0.996741
+svm_floor	    0.993178	0.994047	    0.993178	        0.993203	    0.993367	    0.993178	    0.993178	    0.993692	0.993178	0.993177
+tree_floor	    0.974319	0.974701	    0.974319	        0.974387	    0.976212	    0.974319	    0.974319	    0.975401	0.974319	0.974306
